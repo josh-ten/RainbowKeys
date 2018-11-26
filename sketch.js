@@ -11,6 +11,7 @@ let colours = [];
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
+  if (attachCanvasToContainer) attachCanvasToContainer();
   white = new Colour(255, 255, 255);
   red = new Colour(255, 0, 0);
   blue = new Colour(0, 0, 255);
